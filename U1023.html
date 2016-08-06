@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+
+        function reverseString(str) {
+
+            var strArray = str.split("");
+            strArray.reverse();
+
+            var strReverse;
+            strReverse = strArray.join('');
+
+
+            return strReverse;
+        }
+
+        reverseString("hello");
+
+    </script>
+
+</head>
+<body>
+<h1>Enter Text</h1>
+<input type="text" id="user" value="user"/>
+<input type="button" id="rb" value="reverse" onclick="reverseString(str)" />
+
+
+
+</body>
+</html>
